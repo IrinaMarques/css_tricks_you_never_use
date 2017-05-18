@@ -1,0 +1,6 @@
+When we select a piece of text in the browser the selection appears with the text white and the backgound blue.
+
+selection pseudo class in css.
+
+i.e 
+p::selection {background-color: yellow;}

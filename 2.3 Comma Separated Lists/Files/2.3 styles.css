@@ -1,0 +1,20 @@
+.todo {
+	padding-left: 0; /* removes the bullets */	
+	display: inline;
+}
+
+.todo li {
+	display: inline; /* read like a sentence, appears next to each other */
+}
+
+.todo li:not(:last-child)::after {
+	content: ",";
+}
+
+.todo li:last-child:before {
+	content: "and ";
+}
+
+.todo li:last-child:after {
+	content: ".";
+}

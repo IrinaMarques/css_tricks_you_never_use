@@ -1,0 +1,17 @@
+body { 
+	font-family: sans-serif; 
+}
+
+label {
+	color: #aaa;
+}
+
+/* 
+1. point to the input that has a type checkbox - input[type='checkbox']
+2. only if the checkbox is checked - :checked
+3. label that comes after that checkbox that has been checked - + label
+*/
+
+input[type='checkbox']:checked + label {
+	color: steelblue;	
+}

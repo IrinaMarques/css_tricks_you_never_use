@@ -1,0 +1,19 @@
+Paragraph around the image.
+
+This property only works with floated images
+
+- Porperty -
+shape-outside: value
+
+Circle around an circle image
+i.e. 
+shape-outside: circle(50%); 
+
+If an image have to many space around
+i.e.
+shape-outside: inset();
+For values that represents hoe far we want to inset it on all four sides.
+
+If we have a transparent PNG image 
+i.e
+shape-outside: url('');

@@ -1,0 +1,39 @@
+* { 
+	box-sizing: border-box; 
+}
+
+body { 
+	font-family: sans-serif; 
+}
+
+.desktop { 
+	width: 200px; 
+	height: 200px; 
+	float: left; 
+	margin-right: 10px;
+	position: relative; 
+}
+
+.desktop::before {
+	content: "";
+	background-color: #eee;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	border: 1px dashed #aaa;
+	border-radius: 4px;
+} 
+
+.desktop::after {
+	content: attr(alt);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 10px;
+	left: 0px;
+	text-align: center;
+	font-weight: bold;
+	color: #999;
+}
+

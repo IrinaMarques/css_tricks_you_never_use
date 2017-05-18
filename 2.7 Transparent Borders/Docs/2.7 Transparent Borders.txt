@@ -1,0 +1,10 @@
+Add a border to the edge of the container and make him semi-transparent.
+
+Use the background-clip property.
+
+background-clip: border-box|padding-box|content-box|initial|inherit
+
+i.e
+background-clip: padding-box. 
+
+Clips away the white backgound of the border and we can see right through in to the image behind it. 

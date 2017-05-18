@@ -1,0 +1,7 @@
+Add a number to the headings without knowing if we are going to add more headings.
+
+Let the browser calculate those numbers. 
+
+Use counters:
+
+counter-increment property (Add a counter to the <h3>)

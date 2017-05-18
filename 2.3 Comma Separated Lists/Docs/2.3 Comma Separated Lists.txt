@@ -1,0 +1,5 @@
+We're going to take a unordered list and turn it into a comma separated list that reads like a sentence.
+
+Defining the padding-left to 0 removes the bullets.
+
+Defining all the list items except the last-child to put a comma after those.

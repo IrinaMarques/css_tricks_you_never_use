@@ -1,0 +1,1 @@
+Make the labels stand out when we select a checkbox.

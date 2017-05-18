@@ -1,0 +1,38 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/flowers.jpg') top center no-repeat;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  color: #777;
+  padding: 20px;
+  border: 2px solid #888; /* start defining a border */
+  position: relative;
+}
+
+.container:after { /* place the new element inside his container */
+  content: ''; /* allway put the content with a space in it */
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  /* background: red; - we remove this property to see through */
+  /* z-index: -1; - removed to make and inset border */
+  border: 6px solid #d2d4fa;
+}
+
+.container h2 {
+  margin-top: 0;
+  font-family: 'Arial Narrow', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}

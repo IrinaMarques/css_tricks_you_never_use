@@ -1,0 +1,5 @@
+We are going to replace the image that is broken with a rectangle saying that was an image there. 
+
+Use the name of the image with the pseudo element of ::before.
+
+With the ::before is necessary to use the content property or the pseudo elements aren't gonna work right.

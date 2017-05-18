@@ -1,0 +1,18 @@
+Start defining a border.
+Place a second border around.
+We create another element around using the ::after pseudo element.
+
+We place the new element inside his container so:
+- container - position: relative
+- container:after - position: absolute top, left, right, bottom set to -5px and z-index: -1
+
+In that container we can create another border:
+- 2px solid yellow
+
+Now we have 3 borders.
+We can also add the ::before element and make the same thing, that way we define more borders.
+
+We can create an inset border:
+- remove the z-index 
+- top, bottom, left, right elements set to 5px
+

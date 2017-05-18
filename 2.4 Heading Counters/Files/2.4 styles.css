@@ -1,0 +1,11 @@
+body {
+	font-family: sans-serif;
+}
+
+h3 {
+	counter-increment: h3counter; /* add a counter to the h3 */
+}
+
+h3::before {
+	content: counter(h3counter) ". "; /* we name the counter equals to the name we define in the counter-increment */
+}

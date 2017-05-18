@@ -1,0 +1,25 @@
+body { 
+	font-family: sans-serif; 
+	font-size: 18px; 
+}
+
+/* circle image */
+.megaphone {
+	float: left;
+	margin: 10px;
+	shape-outside:circle(50%); /* shape that makes the text goes around */
+}
+
+/* image with a lot space around it */
+.desktop {
+	float: left;
+	shape-outside: inset(40px 20px 40px 0); /* fill the inside - top, right, buttom, left */
+	position: relative; 
+	left: -20px;
+}
+
+/* transparent png with some transparent pixels around the outside edge */
+.logo {
+	float: left;
+	shape-outside: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/Acme_Insignia.png'); /* url to point we want to float around */
+} 

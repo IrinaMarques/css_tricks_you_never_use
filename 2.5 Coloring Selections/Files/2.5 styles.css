@@ -1,0 +1,16 @@
+body { 
+	font-family: sans-serif; 
+}
+
+p::selection {
+	background-color: yellow;
+	color: red;
+}
+
+h3::selection {
+	background-color: grey; 
+}
+
+h1::selection {
+	background-color: orange;
+}
